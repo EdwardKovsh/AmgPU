@@ -8,7 +8,7 @@
 	<title>АмгПУ</title>
 </head>
 <body>
-	<header style="height: 120px">
+	<header>
 		<div class="container">
 			<div class="row mt-2">
 				<div class="col-8">
@@ -25,15 +25,69 @@
 				<div class="col-4">
 					<img src="img/logo.png" class="header_log">	
 				</div>
-		</div>	
-	</header>
-	<main>
-		<img src="img/1-214.jpg" style="width: 100%;position:absolute;">
-		<center>
-		<p style="position: relative;">Амурский гуманитарный педагогический государственный университет</p>
-		</center>
-		<p>Новостная лента</p>
+			</div>	
+		</header>
+		<main>
+			<div>
+				<center>
+					<p style="position: relative;">Амурский гуманитарный педагогический государственный университет</p>
+					<p style="position:relative;" class="mt-5">Новостная лента</p>
+				</center>
+
+				<!-- начало карусели, я хотел сделать так, чтоб главный экран делился на 3 равные области, где будут карусели и чтоб они менялись и там разные картинки 
+				P.S. я вам оставил пасхалку-картинку :) 
+				не думал, что смогу, но я смог +- сделать то, что хотел
+				+ еще там в header кнопки ебутся при наведении, честно я хз как сделать чтоб не ебались при наведении-->
+				
+				<div class="d-flex caryselka">
+					<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="3000">
+								<img src="img/1-214.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/2.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/3.jpg" class="d-block">
+							</div>
+						</div>
+					</div>
+					
+					
+					<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="3000">
+								<img src="img/4.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/5.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/6.jpg" class="d-block">
+							</div>
+						</div>
+					</div>
+					
+					
+					<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="3000">
+								<img src="img/7.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/8.jpg" class="d-block">
+							</div>
+							<div class="carousel-item" data-bs-interval="3000">
+								<img src="img/9.jpg" class="d-block">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- конец карусели -->
+			</div>
+		</div>
 	</main>
 </body>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>

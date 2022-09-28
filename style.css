@@ -29,3 +29,23 @@ header{
 	color: rgba(0, 0, 0, 1.0) !important;
 	font-size: 20px !important;
 }
+
+/*стилизование каруслеи*/
+
+.caryselka{
+	height: 100vh !important;
+}
+
+.col-4{
+	padding: 0 !important;
+}
+
+.d-block{
+	height: 80vh;
+	width: 33vw;
+	object-fit: cover !important;
+}
+
+.carouselExampleInterval{
+	width: 33vw !important;
+}
