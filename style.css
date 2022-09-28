@@ -1,0 +1,31 @@
+html{
+	background-color: #cfe3ff;
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #cfe3ff;
+}
+
+.btn{
+	color: #001a99 !important;
+	transition: .5s !important;
+}
+
+.header_logo{
+	width: 100%;
+}
+
+.header_log{
+	z-index: 2;
+	float: right;
+	margin-right: 30px;
+}
+
+.btn:hover{
+	color: rgba(0, 0, 0, 1.0) !important;
+	font-size: 20px !important;
+}
