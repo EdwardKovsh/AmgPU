@@ -10,42 +10,26 @@ header{
 	background-color: #cfe3ff;
 }
 
-.btn{
-	color: #001a99 !important;
-	transition: .5s !important;
+.left-panel{
+	background-color: black;
+	height: 90vh;
+	color: white;
+
 }
 
-.header_logo{
-	width: 100%;
+.panel-navigation{
+	cursor: pointer;
+	margin: 20px;
 }
 
-.header_log{
-	z-index: 2;
-	float: right;
-	margin-right: 30px;
-}
-
-.btn:hover{
-	color: rgba(0, 0, 0, 1.0) !important;
-	font-size: 20px !important;
-}
-
-/*стилизование каруслеи*/
-
-.caryselka{
-	height: 100vh !important;
-}
-
-.col-4{
-	padding: 0 !important;
+.right-panel{
+	width: auto;
+	border: solid black 3px;
 }
 
 .d-block{
-	height: 80vh;
-	width: 33vw;
-	object-fit: cover !important;
-}
-
-.carouselExampleInterval{
-	width: 33vw !important;
+	object-fit: cover;
+	max-height: 90vh;
+	height: 100vh !important;
+	width: 100%;
 }
