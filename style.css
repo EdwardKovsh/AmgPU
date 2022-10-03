@@ -11,7 +11,7 @@ header{
 }
 
 .left-panel{
-	background-color: black;
+	background-color: #4d6eb9;
 	height: 90vh;
 	color: white;
 
@@ -26,21 +26,40 @@ header{
  	display: none;
  	color: white;
  	left: 0;
- 	background-color: black;
+ 	background-color: #4d6eb9;
  	z-index: 1000;
  	position: fixed;
  	width: 100%;
  	height: 90vh;
  }
 
-.panel-drive2{
+ .internal{
+ 	background-color: #2751b1;
+ 	color: white;
+ 	z-index: 1002;
+ 	position: fixed;
+ 	width: 200px;
+ 	height: 200px;
+ }
+
+ .additionally{
+ 	display: none;
+ 	z-index: 1004;
+ 	width: 200px;
+ 	height: 200px;
+ 	position: fixed;
+ 	color: white;
+ 	background-color: black;
+ }
+
+.panel-inside{
  	display: none;
  	color: white;
- 	top: 20px;
- 	left: 20px;
- 	background-color: white;
+ 	top: 68px;
+ 	left: 35vw;
+ 	background-color: #527de1;
  	z-index: 1001;
  	position: fixed;
- 	width: 20px;
- 	height: 20px;
+ 	width: 200px;
+ 	height: 200px;
  }
