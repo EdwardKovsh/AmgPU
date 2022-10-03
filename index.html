@@ -8,43 +8,29 @@
 	<title>АмгПУ</title>
 </head>
 <body>
-	<!-- <header>
-		<div class="container">
-			<div class="row mt-2">
-				<div class="col-8">
-					<div class="row d-flex justify-content-around">
-						<div class="btn" style="width: auto">Общая информация</div>
-						<div class="btn" style="width: auto">Структура университета</div>
-						<div class="btn" style="width: auto">Деятельность</div>
-						<div class="btn" style="width: auto">Университетская жизнь</div>
-						<div class="btn" style="width: auto">Библиотека</div>
-						<div class="btn" style="width: auto">Оплата</div>
-						<div class="btn" style="width: auto">Обратиться к администрации</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<img src="img/logo.png" class="header_log">	
-				</div>
-			</div>	
-		</header> -->
 		<main style="display: flex;">
-
+			<!-- боковая панель -->
 			<div class="left-panel">
-				<p id="pan-dri">Открыть панель</p>
-				<p class="panel-navigation">кнопка</p>
-				<p class="panel-navigation">кнопка</p>
-				<p class="panel-navigation">кнопка</p>
-				<p class="panel-navigation">кнопка</p>
-				<p class="panel-navigation">кнопка</p>
+				<img id="pan-dri" src="img/palki.png">
+				<img src="img/lk.png"; style="width:32px; margin:18px">
 			</div>
 			<div class="panel-drive">
-				<p id="pan-not-dri">Закрыть панель</p>
-				<p>панель открыта</p>
-				<img src="img/NIGGERS.jpg">
+				<img id="pan-not-dri" style="width:32px;height: 32px; margin: 18px;" src="img/krest.png">
+				<div class="d-flex" style="flex-direction: column; margin-left: 145px;">
+					<p style="width:168px">Общая информация</p>
+					<p style="width:189px">Структура университета</p>
+					<p style="width:100px">Деятельность</p>
+					<p style="width:198px">университетская жизнь</p>
+					<p style="width:103px">библиотека</p>
+					<p style="width:60px">оплата</p>
+					<p style="width:232px">обратиться к администрации</p>
+				</div>
+			</div>
+			<div class="panel-drive2">
 			</div>
 			<!-- начало каруследи -->
 			<div style="width: 100%">
-				<div id="carouselExampleInterval" class="carousel slide caryselka" data-bs-ride="carousel">
+				<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active" data-bs-interval="3000">
 							<img src="img/1-214.jpg" class="d-block">
@@ -59,9 +45,6 @@
 				</div>
 			</div>
 			<!-- конец карусели -->
-			<div class="right-panel">
-				<p>Новости</p>
-			</div>
 		</main>
 		<script src="jquery-3.6.1.min.js"></script>
 		<script src="main.js"></script>
