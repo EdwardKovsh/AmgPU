@@ -8,7 +8,7 @@ $(function(){
 	});
 });
 // наведение на кнопки внутри боковой панели
-let ada = document.getElementsByClassName("additionally")
+let additional = document.getElementsByClassName("additionally")
 // let determinant = false;
 // только попробуйте это кто-то удалить
 // $(function(){
@@ -22,16 +22,21 @@ let ada = document.getElementsByClassName("additionally")
 // 		determinant = false;
 // 	});
 // });
-function develop(num){
-	ada[0].style.display = "none";
-	ada[1].style.display = "none";
-	ada[2].style.display = "none";
-	ada[3].style.display = "none";
-	ada[4].style.display = "none";
-	ada[5].style.display = "none";
-	ada[6].style.display = "none";
-	ada[7].style.display = "none";
-	ada[8].style.display = "none";
-	ada[9].style.display = "none";
-	ada[num].style.display = "block";
-}
+// function switchKey(num){
+// 	// additional[0].style.display = "none";
+// 	// additional[1].style.display = "none";
+// 	// additional[2].style.display = "none";
+// 	// additional[3].style.display = "none";
+// 	// additional[4].style.display = "none";
+// 	// additional[5].style.display = "none";
+// 	// additional[6].style.display = "none";
+// 	// additional[7].style.display = "none";
+// 	// additional[8].style.display = "none";
+// 	// additional[9].style.display = "none";
+// 	// additional[num].style.opacity = "0";
+// 	// additional[num].style.display = "block";
+// 	// additional[num].style.opacity = "1";
+// }
+$(function(){ 
+	
+})
